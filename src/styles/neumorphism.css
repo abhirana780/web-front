@@ -1,0 +1,82 @@
+/* BACKGROUND */
+.neumo-page {
+    background: #e9edf1;
+  }
+  
+  /* MAIN CARD */
+  .neumo-form-container {
+    border-radius: 28px;
+    padding: 32px;
+    width: 100%;
+    box-shadow:
+      12px 12px 24px rgba(0, 0, 0, 0.08),
+      -12px -12px 24px rgba(255, 255, 255, 0.9);
+  }
+  
+  /* LABEL */
+  .neumo-label {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 6px;
+    display: inline-block;
+  }
+  
+  /* INPUT WRAPPER */
+  .neumo-input {
+    background: #e9edf1 !important;
+    border-radius: 14px;
+    padding: 14px 16px !important;
+    width: 25rem;
+
+    box-shadow:
+      inset 6px 6px 10px rgba(0, 0, 0, 0.08),
+      inset -6px -6px 10px rgba(255, 255, 255, 0.9);
+  }
+  
+  /* REMOVE ANTD STYLES */
+  .neumo-input input {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 15px;
+  }
+  
+  /* PASSWORD ICON FIX */
+  .neumo-input .ant-input-suffix {
+    color: #9ca3af;
+  }
+  
+/* BUTTON */
+.neumo-button {
+  background: #e9edf1;
+  border-radius: 16px;
+  padding: 14px;
+  font-weight: 600;
+  color: #ab1428;
+  box-shadow:
+    6px 6px 12px rgba(0, 0, 0, 0.08),
+    -6px -6px 12px rgba(255, 255, 255, 0.9);
+  transition: all 0.2s ease;
+}
+
+.neumo-button:hover {
+  box-shadow:
+    inset 6px 6px 12px rgba(0, 0, 0, 0.08),
+    inset -6px -6px 12px rgba(255, 255, 255, 0.9);
+}
+  
+  /* SOCIAL ICON BUTTON */
+  .neumo-icon-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    background: #e9edf1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+      6px 6px 12px rgba(0, 0, 0, 0.08),
+      -6px -6px 12px rgba(255, 255, 255, 0.9);
+  }
+  

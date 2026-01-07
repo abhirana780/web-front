@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "website": "wipronix-website"
+  },
+  "targets": {
+    "wipronix-website": {
+      "hosting": {
+        "website": [
+          "wipronix-website"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
